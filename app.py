@@ -11,7 +11,7 @@ import joblib
 
 # Load dataset
 # Ensure you have the titanic.csv file in the same directory or provide the correct path
-data = pd.read_csv('/content/tested.csv')
+data = pd.read_csv('tested.csv')
 
 # Data Preprocessing
 # Handle missing values by filling NaN with most frequent values
