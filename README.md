@@ -14,39 +14,35 @@
    ```
    cd <repository-name>
    ```
-5) Install Required Dependencies
-    i) Ensure you have Python installed. Then, install the necessary libraries by running:
+5) Install Required Dependencies: Ensure you have Python installed. Then, install the necessary libraries by running:
       ```
       pip install -r requirements.txt
       ```
 
-6) Run the Model Training Script
-      Execute the main Python script to preprocess the data, train models, and save the best-performing model:
+6) Run the Model Training Script: Execute the main Python script to preprocess the data, train models, and save the best-performing model
     ```
    python app.py
    ```
 
 5) Model Output
-     i) The model training process will:
-          Print accuracy, precision, recall, and F1-score metrics.
-          Display the confusion matrix and classification report.
-          Save the best-performing model as: titanic_best_model.pkl
+   1) Print accuracy, precision, recall, and F1-score metrics.
+   2) Display the confusion matrix and classification report.
+   3) Save the best-performing model as: titanic_best_model.pkl
 
 ⚙️ Technologies Used
 1) Python
 2) Libraries:
-     pandas – for data manipulation
-     numpy – for numerical operations
-     scikit-learn – for model building and evaluation
-     joblib – for saving the best model
+     1) pandas(for data manipulation)
+     2) numpy(for numerical operations)
+     3) scikit-learn(for model building and evaluation)
+     4) joblib(for saving the best model)
 
 ✅ Model Evaluation
-  After running the script, you will see the evaluation metrics for the best-performing model:
-  Accuracy: Overall model correctness
-  Precision: Correctly predicted positive cases out of all positive predictions
-  Recall: Correctly predicted positive cases out of all actual positives
-  F1 Score: Harmonic mean of precision and recall
-  Confusion Matrix and Classification Report for detailed performance insights
+1) Accuracy: Overall model correctness
+2) Precision: Correctly predicted positive cases out of all positive predictions
+3) Recall: Correctly predicted positive cases out of all actual positives
+4) F1 Score: Harmonic mean of precision and recall
+5) Confusion Matrix and Classification Report for detailed performance insights
 
 
 
