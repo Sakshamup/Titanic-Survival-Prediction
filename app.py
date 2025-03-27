@@ -10,7 +10,6 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import joblib
 
 # Load dataset
-# Ensure you have the titanic.csv file in the same directory or provide the correct path
 data = pd.read_csv('tested.csv')
 
 # Data Preprocessing
@@ -54,7 +53,6 @@ best_model = None
 best_score = 0
 
 # Iterating through each model for hyperparameter tuning
-# Iterating through each model for hyperparameter tuning
 for name, model in models.items():
     pipeline = Pipeline([
         ('preprocessor', preprocessor),  # Apply preprocessing steps
@@ -96,5 +94,3 @@ print(classification_report(y_test, y_pred))
 
 # Save the best model for future use
 joblib.dump(best_model, 'titanic_best_model.pkl')
-
-# Inline comments added for clarity and documentation
